@@ -6,3 +6,560 @@
   <title>Assignment 2 — Loop Together</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
+  <header>
+    <p>Sihao Wang · Digital Media</p>
+    <h1>Loop Together</h1>
+    <p>Assignment 2 — Parallel Prototypes</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#interaction">Loop Interaction</a>
+      <a href="#feedback">Feedback</a>
+      <a href="#testing">User Testing</a>
+      <a href="#commit-logs">Commit Logs</a>
+      <a href="#community">Community</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Project Overview</h2>
+
+      <p>
+        Loop Together explores how a browser-based audio instrument
+        can make sound creation approachable for beginners.
+        Users experiment with microphone input, recorded samples
+        and repetition through simple interfaces.
+      </p>
+
+      <p>
+        These six parallel prototypes explore two design areas:
+        looping and sampling interaction, and feedback.
+        Each group contains three alternatives that investigate
+        different ways of supporting sound exploration.
+      </p>
+
+      <p>
+        The prototypes explore individual interactions that could
+        support future social sound-making. They do not implement
+        shared online recording sessions.
+      </p>
+    </section>
+
+    <section id="interaction">
+      <h2>Area 1 — Looping and Sampling Interaction</h2>
+
+      <p>
+        This area directly explores my extended technique of
+        looping and sampling. I investigate how familiar buttons,
+        a circular display and selectable steps can help users
+        understand and control repetition.
+      </p>
+
+      <p>
+        The aim is to support rhythm-making without requiring
+        musical notation. Each version provides a different
+        relationship between user actions and the timing of sound.
+      </p>
+
+      <div class="prototype-grid">
+        <article class="prototype-card">
+          <p class="label">PROTOTYPE 1A</p>
+          <h3>Button Loop</h3>
+
+          <p>
+            Users record a short sound and repeat the complete
+            sample using clearly labelled media controls.
+            The recording length determines the loop length.
+          </p>
+
+          <p>
+            This design explores a familiar starting point for
+            beginners. It lets users focus on recording and
+            listening before introducing control over individual beats.
+          </p>
+
+          <a class="button"
+             href="https://benny-loop-1a.github.io/asignment_2_prototype1a/"
+             target="_blank" rel="noopener noreferrer">
+            Open Prototype 1A
+          </a>
+        </article>
+
+        <article class="prototype-card">
+          <p class="label">PROTOTYPE 1B</p>
+          <h3>Circular Loop</h3>
+
+          <p>
+            Eight positions form a circular cycle. A highlight
+            moves around the circle, and the recorded sample
+            restarts at the beginning of each cycle.
+          </p>
+
+          <p>
+            The circular layout represents repetition as returning
+            to a starting point. It explores whether movement helps
+            users follow the cycle and anticipate the sample restarting.
+          </p>
+
+          <a class="button"
+             href="https://benny-loop-1b.github.io/asignment_2_prototype1b/"
+             target="_blank" rel="noopener noreferrer">
+            Open Prototype 1B
+          </a>
+        </article>
+
+        <article class="prototype-card">
+          <p class="label">PROTOTYPE 1C</p>
+          <h3>Step Loop</h3>
+
+          <p>
+            Users select positions in an eight-step grid to choose
+            when their sample is triggered. Selected steps appear
+            green, while an outline shows the playback position.
+          </p>
+
+          <p>
+            This design explores more direct control over rhythm.
+            Turning steps on and off lets users experiment with
+            the placement of sound within a repeating pattern.
+          </p>
+
+          <a class="button"
+             href="https://benny-loop-1c.github.io/asignment_2_prototype1c/"
+             target="_blank" rel="noopener noreferrer">
+            Open Prototype 1C
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="feedback">
+      <h2>Area 2 — Feedback and Guidance</h2>
+
+      <p>
+        This area explores how the interface communicates
+        microphone activity and system states. Feedback can help
+        users recognise that an input has been received and
+        understand what they can do next.
+      </p>
+
+      <p>
+        The alternatives focus on a level display, written
+        instructions and expressive animation. They investigate
+        feedback as confirmation, guidance and encouragement
+        to try different sounds.
+      </p>
+
+      <div class="prototype-grid">
+        <article class="prototype-card">
+          <p class="label">PROTOTYPE 2A</p>
+          <h3>Visual Feedback</h3>
+
+          <p>
+            A meter and pulsing circle respond to microphone input.
+            Bar length and circle size provide visible feedback
+            when users speak, clap or tap.
+          </p>
+
+          <p>
+            This design explores how simple visual changes can
+            confirm sound activity. It shows relative changes,
+            rather than a calibrated sound-level measurement.
+          </p>
+
+          <a class="button"
+             href="https://benny-loop-2a.github.io/asignment_2_prototype2a/"
+             target="_blank" rel="noopener noreferrer">
+            Open Prototype 2A
+          </a>
+        </article>
+
+        <article class="prototype-card">
+          <p class="label">PROTOTYPE 2B</p>
+          <h3>Text Feedback</h3>
+
+          <p>
+            Short instructions guide users through recording,
+            stopping and playing a sample. Messages describe
+            the current state and the next available action.
+          </p>
+
+          <p>
+            This version explores explicit guidance for beginners.
+            Disabled buttons support the instructions by showing
+            which actions are currently available.
+          </p>
+
+          <a class="button"
+             href="https://benny-loop-2b.github.io/asignment_2_prototype2b/"
+             target="_blank" rel="noopener noreferrer">
+            Open Prototype 2B
+          </a>
+        </article>
+
+        <article class="prototype-card">
+          <p class="label">PROTOTYPE 2C</p>
+          <h3>Expressive Feedback</h3>
+
+          <p>
+            Animated bars respond to frequency information from
+            the microphone. Different sounds create changing
+            patterns across the display.
+          </p>
+
+          <p>
+            This version explores how animation can encourage
+            experimentation with voice, claps and taps.
+            Its focus is live visual feedback rather than
+            recording and playback.
+          </p>
+
+          <a class="button"
+             href="https://benny-loop-2c.github.io/asignment_2_prototype2c/"
+             target="_blank" rel="noopener noreferrer">
+            Open Prototype 2C
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Shared Design Choices</h2>
+
+      <p>
+        The prototypes share a dark background, green controls
+        and clear labels. Consistent styling helps focus attention
+        on the interaction differences between versions.
+      </p>
+
+      <p>
+        Status messages explain changes such as recording and
+        playback. In the step sequencer, selected positions and
+        the current playback position have different visual states.
+      </p>
+    </section>
+
+    <section id="testing">
+      <h2>Peer User Testing</h2>
+
+      <p>
+        The testing session explores how participants understand
+        the prototypes, what they expect to happen and where
+        they need more guidance.
+      </p>
+
+      <h3>Testing Tasks</h3>
+
+      <ol>
+        <li>
+          In 1A, record a short sound, start the loop and stop it.
+        </li>
+        <li>
+          In 1B, record a sound and follow one circular cycle.
+        </li>
+        <li>
+          In 1C, select three steps, play the sequence and change
+          one selected step.
+        </li>
+        <li>
+          In 2A, compare the visual response to a quiet sound
+          and a louder sound.
+        </li>
+        <li>
+          In 2B, follow the instructions to record and play a sample.
+        </li>
+        <li>
+          In 2C, try a voice sound, a clap and a tap.
+          Observe how the bars change.
+        </li>
+      </ol>
+
+      <p>
+        Please note that 2A and 2C focus on live input feedback,
+        while 2B includes recording and playback.
+        Consider this difference when comparing the experiences.
+      </p>
+
+      <a class="button"
+         href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=cTYy0b7NF0S01L2yS1ExazBG9IcezXdNhAzs5-oLuZBUMlE4NkZYV0JXNEtFWlhSRVRFNFVaVUFVSi4u"
+         target="_blank" rel="noopener noreferrer">
+        Open Peer User Testing Form
+      </a>
+    </section>
+
+    <section id="commit-logs">
+      <h2>Git Commit Logs</h2>
+
+      <p>
+        Expand each section to view its development history.
+        Records retain the supplied order, date text and commit
+        subjects. Shared history may appear in more than one prototype.
+      </p>
+
+      <div id="log-tables"></div>
+
+      <noscript>
+        Enable JavaScript to display the commit tables.
+      </noscript>
+    </section>
+
+    <section id="community">
+      <h2>Community of Practice</h2>
+
+      <p>
+        My Miro board will document class activities,
+        micro-presentations and exchanges with peers,
+        including dates and supporting evidence.
+      </p>
+
+      <p class="note">Miro board in preparation. Link to be added.</p>
+
+      <!-- Replace the note above with your actual Miro link:
+      <a class="button" href="PASTE_MIRO_LINK_HERE"
+         target="_blank" rel="noopener noreferrer">
+        Open Miro Board
+      </a>
+      -->
+    </section>
+
+    <section>
+      <h2>GitHub Profile</h2>
+
+      <a class="button"
+         href="https://github.com/BennyWangsihao"
+         target="_blank" rel="noopener noreferrer">
+        Visit BennyWangsihao
+      </a>
+    </section>
+
+    <section>
+      <h2>AI Acknowledgement</h2>
+
+      <p>
+        I used OpenAI ChatGPT to assist with drafting and revising
+        HTML, CSS and JavaScript, troubleshooting recording and
+        playback interactions, and drafting prototype descriptions
+        and user-testing questions. AI-generated code and text
+        contributed to this submission.
+      </p>
+    </section>
+  </main>
+
+  <footer>Sihao Wang · Loop Together · Assignment 2</footer>
+
+  <script>
+    // All supplied entries have the same author.
+    const author = "BennyWangsihao";
+
+    // Each row contains date text and subject.
+    // 1B additionally preserves its supplied commit date.
+    const logs = [
+      {
+        title: "Prototype 1A — Button Loop",
+        headers: ["Author", "Author Date", "Subject", "Body"],
+        rows: [
+          ["2026-09-10 22:01:22", "1"],
+          ["2026-09-10 22:01:09", "1"],
+          ["2026-09-10 22:00:52", "1"],
+          ["2026-09-10 21:52:18", "1"],
+          ["2026-09-10 21:48:13", "11"],
+          ["2026-09-10 21:41:15", "1"],
+          ["2026-09-10 11:20:02", "1"],
+          ["2026-09-10 11:15:10", "1"],
+          ["2026-09-10 11:14:04", "1"],
+          ["2026-09-10 11:13:26", "1"],
+          ["2026-09-10 11:04:31", "1"],
+          ["2026-09-10 11:03:46", "1"],
+          ["2026-09-10 21:01:41", "Initial commit"]
+        ]
+      },
+      {
+        title: "Prototype 1B — Circular Loop",
+        headers: ["Author", "Author Date", "Commit Date", "Subject"],
+        rows: [
+          ["2026-09-10 21:01:41", "2026-09-10 21:01:41", "Initial commit"],
+          ["2026-09-10 11:03:46", "2026-09-10 11:03:46", "1"],
+          ["2026-09-10 11:04:31", "2026-09-10 11:04:31", "1"],
+          ["2026-09-10 11:13:26", "2026-09-10 11:13:26", "1"],
+          ["2026-09-10 11:14:04", "2026-09-10 11:14:04", "1"],
+          ["2026-09-10 11:15:10", "2026-09-10 11:15:10", "1"],
+          ["2026-09-10 11:20:02", "2026-09-10 11:20:02", "1"],
+          ["2026-09-10 21:41:15", "2026-09-10 21:41:15", "1"],
+          ["2026-09-10 21:48:13", "2026-09-10 21:48:13", "11"],
+          ["2026-09-10 21:52:18", "2026-09-10 21:52:18", "1"],
+          ["2026-09-10 22:27:54", "2026-09-10 22:27:54", "create record and stop button of sound"],
+          ["2026-09-10 22:29:53", "2026-09-10 22:29:53", "finish the js about the record and stop button also the circle play"],
+          ["2026-09-10 23:06:49", "2026-09-10 23:06:49", "finish the work"],
+          ["2026-09-10 23:30:12", "2026-09-10 23:30:12", "1"]
+        ]
+      },
+      {
+        title: "Prototype 1C — Step Loop",
+        headers: ["Author", "Author Date", "Subject", "Body"],
+        rows: [
+          ["Tue Sep 15 17:21:56 2026 +1000", "Update index.html"],
+          ["Mon Sep 14 22:35:29 2026 +1000", "ask ai to fix the fold"],
+          ["Mon Sep 14 21:58:38 2026 +1000", "fix the js"],
+          ["Mon Sep 14 21:09:22 2026 +1000", "1"],
+          ["Mon Sep 14 20:36:26 2026 +1000", "add the same css"],
+          ["Fri Sep 11 01:18:53 2026 +1000", "1"],
+          ["Fri Sep 11 01:17:44 2026 +1000", "copy the record and stop"],
+          ["Fri Sep 11 01:17:06 2026 +1000", "1"],
+          ["Fri Sep 11 01:15:37 2026 +1000", "add cube and change the way to make people record"],
+          ["Fri Sep 11 01:14:53 2026 +1000", "write the text and the button simaiar as before"],
+          ["Fri Sep 11 00:21:21 2026 +1000", "1"],
+          ["Thu Sep 10 23:30:12 2026 +1000", "1"],
+          ["Thu Sep 10 23:06:49 2026 +1000", "finish the work"],
+          ["Thu Sep 10 22:29:53 2026 +1000", "finish the js about the record and stop button also the circle play"],
+          ["Thu Sep 10 22:27:54 2026 +1000", "create record and stop button of sound"],
+          ["Thu Sep 10 21:52:18 2026 +1000", "1"],
+          ["Thu Sep 10 21:48:13 2026 +1000", "11"],
+          ["Thu Sep 10 21:41:15 2026 +1000", "1"],
+          ["Thu Sep 10 11:20:02 2026 +0000", "1"],
+          ["Thu Sep 10 11:15:10 2026 +0000", "1"],
+          ["Thu Sep 10 11:14:04 2026 +0000", "1"],
+          ["Thu Sep 10 11:13:26 2026 +0000", "1"],
+          ["Thu Sep 10 11:04:31 2026 +0000", "1"],
+          ["Thu Sep 10 11:03:46 2026 +0000", "1"],
+          ["Thu Sep 10 21:01:41 2026 +1000", "Initial commit"]
+        ]
+      },
+      {
+        title: "Prototype 2A — Visual Feedback",
+        headers: ["Author", "Author Date", "Subject", "Body"],
+        rows: [
+          ["Tue Sep 15 22:04:39 2026 +1000", "fix the css cause it do not work with the help of AI"],
+          ["Tue Sep 15 22:02:10 2026 +1000", "fix the web with AI cause the css is not correct"],
+          ["Tue Sep 15 21:42:39 2026 +1000", "update the css"],
+          ["Mon Sep 14 21:59:47 2026 +1000", "fix the js"],
+          ["Mon Sep 14 20:37:25 2026 +1000", "add the same css"],
+          ["Sat Sep 12 19:43:56 2026 +1000", "1"],
+          ["Sat Sep 12 19:43:19 2026 +1000", "1.js"],
+          ["Sat Sep 12 19:40:06 2026 +1000", "add the word to show the microphone is off"],
+          ["Sat Sep 12 19:32:05 2026 +1000", "add the button"],
+          ["Sat Sep 12 19:30:54 2026 +1000", "add the same title as THe other protype"],
+          ["Thu Sep 10 22:16:48 2026 +1000", "1"],
+          ["Thu Sep 10 22:14:53 2026 +1000", "1"],
+          ["Thu Sep 10 11:20:02 2026 +0000", "1"],
+          ["Thu Sep 10 11:15:10 2026 +0000", "1"],
+          ["Thu Sep 10 11:14:04 2026 +0000", "1"],
+          ["Thu Sep 10 11:13:26 2026 +0000", "1"],
+          ["Thu Sep 10 11:04:31 2026 +0000", "1"],
+          ["Thu Sep 10 11:03:46 2026 +0000", "1"],
+          ["Thu Sep 10 21:01:41 2026 +1000", "Initial commit"]
+        ]
+      },
+      {
+        title: "Prototype 2B — Text Feedback",
+        headers: ["Author", "Author Date", "Subject", "Body"],
+        rows: [
+          ["Sat Sep 19 19:09:45 2026 +1000", "fix the problem with AI"],
+          ["Sat Sep 19 15:45:06 2026 +1000", "change the css and fix the problem of js by AI"],
+          ["Tue Sep 15 22:17:05 2026 +1000", "fix 2b"],
+          ["Tue Sep 15 22:12:02 2026 +1000", "fix the js cause the button is not work"],
+          ["Tue Sep 15 22:00:26 2026 +1000", "fix the css with AI"],
+          ["Mon Sep 14 22:00:44 2026 +1000", "fix the js"],
+          ["Mon Sep 14 20:38:11 2026 +1000", "add the same css"],
+          ["Mon Sep 14 01:26:58 2026 +1000", "1"],
+          ["Mon Sep 14 01:26:08 2026 +1000", "add the button and the text"],
+          ["Mon Sep 14 01:25:36 2026 +1000", "create the title"],
+          ["Mon Sep 14 01:24:45 2026 +1000", "create the branch 2b"],
+          ["Thu Sep 10 22:16:48 2026 +1000", "1"],
+          ["Thu Sep 10 22:14:53 2026 +1000", "1"],
+          ["Thu Sep 10 11:20:02 2026 +0000", "1"],
+          ["Thu Sep 10 11:15:10 2026 +0000", "1"],
+          ["Thu Sep 10 11:14:04 2026 +0000", "1"],
+          ["Thu Sep 10 11:13:26 2026 +0000", "1"],
+          ["Thu Sep 10 11:04:31 2026 +0000", "1"],
+          ["Thu Sep 10 11:03:46 2026 +0000", "1"],
+          ["Thu Sep 10 21:01:41 2026 +1000", "Initial commit"]
+        ]
+      },
+      {
+        title: "Prototype 2C — Expressive Feedback",
+        headers: ["Author", "Author Date", "Subject", "Body"],
+        rows: [
+          ["Wed Sep 23 02:26:13 2026 +1000", "1"],
+          ["Sat Sep 19 19:13:00 2026 +1000", "fix the problem with AI"],
+          ["Mon Sep 14 22:01:46 2026 +1000", "fix the js"],
+          ["Mon Sep 14 20:38:54 2026 +1000", "add the same css"],
+          ["Mon Sep 14 20:31:12 2026 +1000", "something cover the 2c and refix it"],
+          ["Thu Sep 10 22:16:48 2026 +1000", "1"],
+          ["Thu Sep 10 22:14:53 2026 +1000", "1"],
+          ["Thu Sep 10 11:20:02 2026 +0000", "1"],
+          ["Thu Sep 10 11:15:10 2026 +0000", "1"],
+          ["Thu Sep 10 11:14:04 2026 +0000", "1"],
+          ["Thu Sep 10 11:13:26 2026 +0000", "1"],
+          ["Thu Sep 10 11:04:31 2026 +0000", "1"],
+          ["Thu Sep 10 11:03:46 2026 +0000", "1"],
+          ["Thu Sep 10 21:01:41 2026 +1000", "Initial commit"]
+        ]
+      }
+    ];
+
+    const holder = document.querySelector("#log-tables");
+
+    // Create accessible HTML tables without interpreting log text as HTML.
+    logs.forEach(function (log) {
+      const details = document.createElement("details");
+      const summary = document.createElement("summary");
+
+      summary.textContent =
+        log.title + " · " + log.rows.length + " records";
+
+      details.appendChild(summary);
+
+      const wrap = document.createElement("div");
+      wrap.className = "table-wrap";
+      wrap.tabIndex = 0;
+      wrap.setAttribute("role", "region");
+      wrap.setAttribute("aria-label", log.title + " commit table");
+
+      const table = document.createElement("table");
+      const caption = document.createElement("caption");
+      caption.textContent = log.title + " — Commit History";
+      table.appendChild(caption);
+
+      const thead = document.createElement("thead");
+      const headerRow = document.createElement("tr");
+
+      log.headers.forEach(function (heading) {
+        const th = document.createElement("th");
+        th.scope = "col";
+        th.textContent = heading;
+        headerRow.appendChild(th);
+      });
+
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+
+      const tbody = document.createElement("tbody");
+
+      log.rows.forEach(function (row) {
+        const tr = document.createElement("tr");
+
+        // 1B has a commit-date column; the other logs have empty bodies.
+        const cells = log.headers[2] === "Commit Date"
+          ? [author, row[0], row[1], row[2]]
+          : [author, row[0], row[1], ""];
+
+        cells.forEach(function (value) {
+          const td = document.createElement("td");
+          td.textContent = value;
+          tr.appendChild(td);
+        });
+
+        tbody.appendChild(tr);
+      });
+
+      table.appendChild(tbody);
+      wrap.appendChild(table);
+      details.appendChild(wrap);
+      holder.appendChild(details);
+    });
+  </script>
+</body>
+</html>
